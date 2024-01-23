@@ -9,7 +9,7 @@ const server = jsonServer.create();
 // const db = JSON.parse(data);
 // const router = jsonServer.router(db)
 
-const router = jsonServer.router("db.json");
+const router = jsonServer.router("term.json");
 
 const middlewares = jsonServer.defaults();
 
